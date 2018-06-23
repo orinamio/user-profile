@@ -34,7 +34,7 @@ var userProfile = {
   * @return {object}
   */
   gitlab: function (username) {
-    _getUserProfile('https://gitlab.com/api/v3/users?username=', username)
+    _getUserProfile('https://gitlab.com/api/v4/users?username=', username)
   },
   /**
   * Fetch bitbucket profile for a user
